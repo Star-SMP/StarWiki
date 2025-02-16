@@ -82,6 +82,7 @@ export default defineConfig({
       {
         text: '🔮 Механики и команды',
         items: [
+          { text: 'StarPass', link: 'features/starpass'},
           { text: 'Правительство', link: 'features/government'},
           { text: 'Расширение барьера', link: 'features/border'},
           { text: 'Ребаланс торговли', link: 'features/traderebalance'},
