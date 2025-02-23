@@ -86,6 +86,7 @@ export default defineConfig({
           { text: 'Правительство', link: 'features/government'},
           { text: 'Расширение барьера', link: 'features/border'},
           { text: 'Ребаланс торговли', link: 'features/traderebalance'},
+          { text: 'Ограничения элитров', link: 'features/elytra'},
           { text: 'Больше кастомизации брони', link: 'features/moretrims'},
           { text: 'Чат', link: 'features/chat'},
           { text: 'Онлайн-карта', link: 'features/map'},
