@@ -85,20 +85,16 @@ export default defineConfig({
           { text: 'StarPass', link: 'features/starpass'},
           { text: 'Правительство', link: 'features/government'},
           { text: 'Расширение барьера', link: 'features/border'},
-          { text: 'Ребаланс торговли', link: 'features/traderebalance'},
           { text: 'Ограничения элитров', link: 'features/elytra'},
-          { text: 'Больше кастомизации брони', link: 'features/moretrims'},
           { text: 'Чат', link: 'features/chat'},
           { text: 'Онлайн-карта', link: 'features/map'},
+          { text: 'Шаблоны для инструментов', link: 'features/trims'},
           { text: 'Взаимодействия с рамкой', link: 'features/frames'},
           { text: 'Позы', link: 'features/poses'},
           { text: 'Теги', link: 'features/tags'},
           { text: 'Невидимый свет', link: 'features/light' },
           { text: 'Волейбол', link: 'features/volleyball'},
-          { text: 'Пустыни и мессы', link: 'features/sands'},
-          { text: 'Дополнения к скалку', link: 'features/sculk'},
           { text: 'Улучшенный камнерез', link: 'features/cutter'},
-          { text: 'Названия шалкеров', link: 'features/shulkers'},
           { text: 'Взрыв криперов', link: 'features/creeper'},
           { text: 'Мембраны фантомов', link: 'features/phantom'},
           {
@@ -109,12 +105,22 @@ export default defineConfig({
               { text: 'Творческий стол', link: 'firstseason/features/painting-table'},
               { text: 'Верхний мир', link: 'firstseason/features/features-overworld'},
               { text: 'Нижний мир', link: 'firstseason/features/features-nether'},
-              { text: 'Шаблоны для инструментов', link: 'firstseason/features/features-trims'},
               { text: 'Мелкие изменения',
                 items: [
                     { text: 'Способы получения "Проворства"', link: 'firstseason/features/features-mini-swsneak'}
                 ]
               }
+            ]
+          },
+          {
+            text: '2️⃣ Архив: второй сезон',
+            collapsed: true,
+            items: [
+              { text: 'Больше кастомизации брони', link: 'secondseason/features/moretrims'},
+              { text: 'Пустыни и мессы', link: 'secondseason/features/sands'},
+              { text: 'Дополнения к скалку', link: 'secondseason/features/sculk'},
+              { text: 'Ребаланс торговли', link: 'secondseason/features/traderebalance'},
+              { text: 'Названия шалкеров', link: 'secondseason/features/shulkers'}
             ]
           }
         ]

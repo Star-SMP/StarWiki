@@ -1,4 +1,4 @@
-# 🔖 Названия шалкеров
+# 🔖 Названия шалкеров <Badge type="info" text="2 сезон" />
 Теперь, если ваш шалкер имеет название, оно будет отображаться над ним.
 
-![shulkers](../.vitepress/assets/shulkers.png)
+![shulkers](assets/shulkers.png)
