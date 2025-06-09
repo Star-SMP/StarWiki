@@ -63,6 +63,7 @@ export default defineConfig({
             ]
           },
           { text: 'StarPlus', link: 'info/starplus'},
+          { text: 'Скины', link: 'info/skin' },
           {
             text: '⚙ Дополнительные моды',
             items: [
@@ -88,15 +89,20 @@ export default defineConfig({
           { text: 'Ограничения элитров', link: 'features/elytra'},
           { text: 'Чат', link: 'features/chat'},
           { text: 'Онлайн-карта', link: 'features/map'},
-          { text: 'Шаблоны для инструментов', link: 'features/trims'},
+          { text: 'Достижения', link: 'features/advancements'},
+          { text: 'Улучшенная рыбалка', link: 'features/fishing'},
+          { text: 'Новая генерация', link: 'features/newgen'},
+          { text: 'Кузнечные шаблоны', link: 'features/trims'},
           { text: 'Взаимодействия с рамкой', link: 'features/frames'},
           { text: 'Позы', link: 'features/poses'},
           { text: 'Теги', link: 'features/tags'},
+          { text: 'Тотемы бессмертия', link: 'features/totems'},
+          { text: 'Подпись предмета', link: 'features/signitem'},
           { text: 'Невидимый свет', link: 'features/light' },
           { text: 'Волейбол', link: 'features/volleyball'},
           { text: 'Улучшенный камнерез', link: 'features/cutter'},
           { text: 'Взрыв криперов', link: 'features/creeper'},
-          { text: 'Мембраны фантомов', link: 'features/phantom'},
+          { text: 'Сон', link: 'features/phantom'},
           {
             text: '1️⃣ Архив: первый сезон',
             collapsed: true,
