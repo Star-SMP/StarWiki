@@ -57,6 +57,7 @@ export default defineConfig({
         items: [
           { text: 'Как начать играть?', link: 'info/start'},
           { text: 'Правила сервера', link: 'info/rules',
+            collapsed: true,
             items: [
               { text: 'Запрещённые модификации', link: 'info/rules-cheats' },
               { text: 'Виды наказаний', link: 'info/rules-warns'}
@@ -66,9 +67,11 @@ export default defineConfig({
           { text: 'Скины', link: 'info/skin' },
           {
             text: '⚙ Дополнительные моды',
+            collapsed: true,
             items: [
               { text: 'Модпак', link: 'mods/modpack'},
               { text: 'Голосовой чат', link: 'mods/voicechat',
+                collapsed: true,
                 items: [
                   { text: 'Группы', link: 'mods/voice-groups'},
                   { text: 'Пользовательские треки', link: 'mods/voice-discs'}
