@@ -55,30 +55,25 @@ export default defineConfig({
       {
         text: '🌟 Информация',
         items: [
-          { text: 'Как начать играть?', link: 'info/start'},
-          { text: 'Правила сервера', link: 'info/rules',
-            collapsed: true,
-            items: [
-              { text: 'Запрещённые модификации', link: 'info/rules-cheats' },
-              { text: 'Виды наказаний', link: 'info/rules-warns'}
-            ]
-          },
-          { text: 'StarPlus', link: 'info/starplus'},
-          { text: 'Скины', link: 'info/skin' },
+          { text: 'Как начать играть?', link: '/info/start' },
+          { text: 'Правила сервера', link: '/info/rules', collapsed: true, items: [
+              { text: 'Запрещённые модификации', link: '/info/rules-cheats' },
+              { text: 'Виды наказаний', link: '/info/rules-warns' }
+            ]},
+          { text: 'StarPlus', link: '/info/starplus' },
+          { text: 'Скины', link: '/info/skin' },
           {
             text: '⚙ Дополнительные моды',
+            link: '/mods/modpack', // Главная страница раздела
             collapsed: true,
             items: [
-              { text: 'Модпак', link: 'mods/modpack'},
-              { text: 'Голосовой чат', link: 'mods/voicechat',
-                collapsed: true,
-                items: [
-                  { text: 'Группы', link: 'mods/voice-groups'},
-                  { text: 'Пользовательские треки', link: 'mods/voice-discs'}
-                ]
-              },
-              { text: 'Эмоции и танцы', link: 'mods/emotecraft'},
-              { text: 'Ресурспак', link: 'mods/resourcepack.md'}
+              { text: 'Модпак', link: '/mods/modpack' },
+              { text: 'Голосовой чат', link: '/mods/voicechat', collapsed: true, items: [
+                  { text: 'Группы', link: '/mods/voice-groups' },
+                  { text: 'Пользовательские треки', link: '/mods/voice-discs' }
+                ]},
+              { text: 'Эмоции и танцы', link: '/mods/emotecraft' },
+              { text: 'Ресурспак', link: '/mods/resourcepack' }
             ]
           }
         ]
@@ -86,58 +81,58 @@ export default defineConfig({
       {
         text: '🔮 Механики и команды',
         items: [
-          { text: 'StarPass', link: 'features/starpass'},
-          { text: 'Правительство', link: 'features/government'},
-          { text: 'Расширение барьера', link: 'features/border'},
-          { text: 'Ограничения элитров', link: 'features/elytra'},
-          { text: 'Чат', link: 'features/chat'},
-          { text: 'Онлайн-карта', link: 'features/map'},
-          { text: 'Достижения', link: 'features/advancements'},
-          { text: 'Улучшенная рыбалка', link: 'features/fishing'},
-          { text: 'Новая генерация', link: 'features/newgen'},
-          { text: 'Кузнечные шаблоны', link: 'features/trims'},
-          { text: 'Взаимодействия с рамкой', link: 'features/frames'},
-          { text: 'Позы', link: 'features/poses'},
-          { text: 'Теги', link: 'features/tags'},
-          { text: 'Тотемы бессмертия', link: 'features/totems'},
-          { text: 'Подпись предмета', link: 'features/signitem'},
-          { text: 'Невидимый свет', link: 'features/light' },
-          { text: 'Волейбол', link: 'features/volleyball'},
-          { text: 'Улучшенный камнерез', link: 'features/cutter'},
-          { text: 'Взрыв криперов', link: 'features/creeper'},
-          { text: 'Сон', link: 'features/phantom'},
+          { text: 'StarPass', link: '/features/starpass' },
+          { text: 'Правительство', link: '/features/government' },
+          { text: 'Расширение барьера', link: '/features/border' },
+          { text: 'Ограничения элитров', link: '/features/elytra' },
+          { text: 'Чат', link: '/features/chat' },
+          { text: 'Онлайн-карта', link: '/features/map' },
+          { text: 'Достижения', link: '/features/advancements' },
+          { text: 'Улучшенная рыбалка', link: '/features/fishing' },
+          { text: 'Новая генерация', link: '/features/newgen' },
+          { text: 'Кузнечные шаблоны', link: '/features/trims' },
+          { text: 'Взаимодействия с рамкой', link: '/features/frames' },
+          { text: 'Позы', link: '/features/poses' },
+          { text: 'Теги', link: '/features/tags' },
+          { text: 'Тотемы бессмертия', link: '/features/totems' },
+          { text: 'Подпись предмета', link: '/features/signitem' },
+          { text: 'Невидимый свет', link: '/features/light' },
+          { text: 'Волейбол', link: '/features/volleyball' },
+          { text: 'Улучшенный камнерез', link: '/features/cutter' },
+          { text: 'Взрыв криперов', link: '/features/creeper' },
+          { text: 'Сон', link: '/features/phantom' },
           {
             text: '1️⃣ Архив: первый сезон',
+            link: '/firstseason/features/features-morefood',
             collapsed: true,
             items: [
-              { text: 'Больше еды', link: 'firstseason/features/features-morefood'},
-              { text: 'Творческий стол', link: 'firstseason/features/painting-table'},
-              { text: 'Верхний мир', link: 'firstseason/features/features-overworld'},
-              { text: 'Нижний мир', link: 'firstseason/features/features-nether'},
-              { text: 'Мелкие изменения',
-                items: [
-                    { text: 'Способы получения "Проворства"', link: 'firstseason/features/features-mini-swsneak'}
-                ]
-              }
+              { text: 'Больше еды', link: '/firstseason/features/features-morefood' },
+              { text: 'Творческий стол', link: '/firstseason/features/painting-table' },
+              { text: 'Верхний мир', link: '/firstseason/features/features-overworld' },
+              { text: 'Нижний мир', link: '/firstseason/features/features-nether' },
+              { text: 'Мелкие изменения', link: '/firstseason/features/features-mini-swsneak', items: [
+                  { text: 'Способы получения "Проворства"', link: '/firstseason/features/features-mini-swsneak' }
+                ]}
             ]
           },
           {
             text: '2️⃣ Архив: второй сезон',
+            link: '/secondseason/features/moretrims',
             collapsed: true,
             items: [
-              { text: 'Больше кастомизации брони', link: 'secondseason/features/moretrims'},
-              { text: 'Пустыни и мессы', link: 'secondseason/features/sands'},
-              { text: 'Дополнения к скалку', link: 'secondseason/features/sculk'},
-              { text: 'Ребаланс торговли', link: 'secondseason/features/traderebalance'},
-              { text: 'Названия шалкеров', link: 'secondseason/features/shulkers'}
+              { text: 'Больше кастомизации брони', link: '/secondseason/features/moretrims' },
+              { text: 'Пустыни и мессы', link: '/secondseason/features/sands' },
+              { text: 'Дополнения к скалку', link: '/secondseason/features/sculk' },
+              { text: 'Ребаланс торговли', link: '/secondseason/features/traderebalance' },
+              { text: 'Названия шалкеров', link: '/secondseason/features/shulkers' }
             ]
           }
         ]
       }
     ],
-
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/starsmp' }
+      { icon: 'discord', link: 'https://discord.gg/starsmp' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@starsmpyt'}
     ]
   }
 })
