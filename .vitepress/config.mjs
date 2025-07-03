@@ -85,7 +85,7 @@ export default defineConfig({
           { text: 'Правительство', link: '/features/government' },
           { text: 'Расширение барьера', link: '/features/border' },
           { text: 'Ограничения элитров', link: '/features/elytra' },
-          { text: 'Чат', link: '/features/chat' },
+          { text: 'Чат и таб', link: '/features/chat' },
           { text: 'Онлайн-карта', link: '/features/map' },
           { text: 'Достижения', link: '/features/advancements' },
           { text: 'Улучшенная рыбалка', link: '/features/fishing' },
