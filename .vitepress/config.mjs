@@ -101,6 +101,7 @@ export default defineConfig({
           { text: 'Улучшенный камнерез', link: '/features/cutter' },
           { text: 'Взрыв криперов', link: '/features/creeper' },
           { text: 'Сон', link: '/features/phantom' },
+          { text: 'Названия шалкеров', link: '/features/shulkers' },
           {
             text: '1️⃣ Архив: первый сезон',
             link: '/firstseason/features/features-morefood',
@@ -123,8 +124,7 @@ export default defineConfig({
               { text: 'Больше кастомизации брони', link: '/secondseason/features/moretrims' },
               { text: 'Пустыни и мессы', link: '/secondseason/features/sands' },
               { text: 'Дополнения к скалку', link: '/secondseason/features/sculk' },
-              { text: 'Ребаланс торговли', link: '/secondseason/features/traderebalance' },
-              { text: 'Названия шалкеров', link: '/secondseason/features/shulkers' }
+              { text: 'Ребаланс торговли', link: '/secondseason/features/traderebalance' }
             ]
           }
         ]
