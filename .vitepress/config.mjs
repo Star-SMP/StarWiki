@@ -53,15 +53,15 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '🌟 Информация',
+        text: 'Информация',
         items: [
-          { text: 'Как начать играть?', link: '/info/start' },
-          { text: 'Правила сервера', link: '/info/rules', collapsed: true, items: [
+          { text: '🎮 Как начать играть?', link: '/info/start' },
+          { text: '📋 Правила сервера', link: '/info/rules', collapsed: true, items: [
               { text: 'Запрещённые модификации', link: '/info/rules-cheats' },
               { text: 'Виды наказаний', link: '/info/rules-warns' }
             ]},
-          { text: 'StarPlus', link: '/info/starplus' },
-          { text: 'Скины', link: '/info/skin' },
+          { text: '⭐ StarPlus', link: '/info/starplus' },
+          { text: '🎭 Скины', link: '/info/skin' },
           {
             text: '⚙ Дополнительные моды',
             link: '/mods/modpack', // Главная страница раздела
@@ -72,36 +72,34 @@ export default defineConfig({
                   { text: 'Группы', link: '/mods/voice-groups' },
                   { text: 'Пользовательские треки', link: '/mods/voice-discs' }
                 ]},
-              { text: 'Эмоции и танцы', link: '/mods/emotecraft' },
-              { text: 'Ресурспак', link: '/mods/resourcepack' }
+              { text: 'Эмоции и танцы', link: '/mods/emotecraft' }
             ]
           }
         ]
       },
       {
-        text: '🔮 Механики и команды',
+        text: 'Механики и команды',
         items: [
-          { text: 'StarPass', link: '/features/starpass' },
-          { text: 'Правительство', link: '/features/government' },
-          { text: 'Расширение барьера', link: '/features/border' },
-          { text: 'Ограничения элитров', link: '/features/elytra' },
-          { text: 'Чат и таб', link: '/features/chat' },
-          { text: 'Онлайн-карта', link: '/features/map' },
-          { text: 'Достижения', link: '/features/advancements' },
-          { text: 'Улучшенная рыбалка', link: '/features/fishing' },
-          { text: 'Новая генерация', link: '/features/newgen' },
-          { text: 'Кузнечные шаблоны', link: '/features/trims' },
-          { text: 'Взаимодействия с рамкой', link: '/features/frames' },
-          { text: 'Позы', link: '/features/poses' },
-          { text: 'Теги', link: '/features/tags' },
-          { text: 'Тотемы бессмертия', link: '/features/totems' },
-          { text: 'Подпись предмета', link: '/features/signitem' },
-          { text: 'Невидимый свет', link: '/features/light' },
-          { text: 'Волейбол', link: '/features/volleyball' },
-          { text: 'Улучшенный камнерез', link: '/features/cutter' },
-          { text: 'Взрыв криперов', link: '/features/creeper' },
-          { text: 'Сон', link: '/features/phantom' },
-          { text: 'Названия шалкеров', link: '/features/shulkers' },
+          { text: '🎟 StarPass', link: '/features/starpass' },
+          { text: `💅🏻 Косметика`, link: '/features/cosmetic'},
+          { text: '👨‍⚖️ Система управления', link: '/features/government' },
+          { text: '🌍 Продвижение границы мира', link: '/features/border' },
+          { text: '✈ Ограничение элитр', link: '/features/elytra' },
+          { text: '💬 Чат и таб', link: '/features/chat' },
+          { text: '🗺️ Онлайн-карта', link: '/features/map' },
+          { text: '🥇 Достижения', link: '/features/advancements' },
+          { text: '🎣 Улучшенная рыбалка', link: '/features/fishing' },
+          { text: '🎨 Кузнечные шаблоны', link: '/features/trims' },
+          { text: '🖼 Взаимодействия с рамкой', link: '/features/frames' },
+          { text: '🪑 Позы', link: '/features/poses' },
+          { text: '💔 Тотемы бессмертия', link: '/features/totems' },
+          { text: '✏ Подпись предмета', link: '/features/signitem' },
+          { text: '💡 Невидимый свет', link: '/features/light' },
+          { text: '🏐 Волейбол', link: '/features/volleyball' },
+          { text: '⚙ Улучшенный камнерез', link: '/features/cutter' },
+          { text: '🎊 Взрыв криперов', link: '/features/creeper' },
+          { text: '🛏 Сон', link: '/features/phantom' },
+          { text: '🔖 Названия шалкеров', link: '/features/shulkers' },
           {
             text: '1️⃣ Архив: первый сезон',
             link: '/firstseason/features/features-morefood',

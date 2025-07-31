@@ -7,3 +7,4 @@
 | `/map hide` | скрыть себя на карте |
 
 Посмотреть карту можно [тут](https://map.starsmp.fun/).
+![image](../.vitepress/assets/map.png)
