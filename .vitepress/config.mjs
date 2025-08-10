@@ -61,6 +61,7 @@ export default defineConfig({
               { text: 'Виды наказаний', link: '/info/rules-warns' }
             ]},
           { text: '⭐ StarPlus', link: '/info/starplus' },
+          { text: '👨‍💻 Команды', link: '/info/commands' },
           { text: '🎭 Скины', link: '/info/skin' },
           {
             text: '⚙ Дополнительные моды',
