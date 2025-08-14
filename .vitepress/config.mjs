@@ -63,6 +63,7 @@ export default defineConfig({
           { text: '⭐ StarPlus', link: '/info/starplus' },
           { text: '👨‍💻 Команды', link: '/info/commands' },
           { text: '🎭 Скины', link: '/info/skin' },
+          { text: '🚀 Оптимизация', link: '/info/optimization' },
           {
             text: '⚙ Дополнительные моды',
             link: '/mods/modpack', // Главная страница раздела
