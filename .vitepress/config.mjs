@@ -84,6 +84,7 @@ export default defineConfig({
         items: [
           { text: '🎟 StarPass', link: '/features/starpass' },
           { text: `💅🏻 Косметика`, link: '/features/cosmetic'},
+          { text: '⛰ Генерация', link: '/features/newgen'},
           { text: '👨‍⚖️ Система управления', link: '/features/government' },
           { text: '🌍 Продвижение границы мира', link: '/features/border' },
           { text: '✈ Ограничение элитр', link: '/features/elytra' },
@@ -95,7 +96,11 @@ export default defineConfig({
           { text: '🖼 Взаимодействия с рамкой', link: '/features/frames' },
           { text: '🪑 Позы', link: '/features/poses' },
           { text: '💔 Тотемы бессмертия', link: '/features/totems' },
-          { text: '✏ Подпись предмета', link: '/features/signitem' },
+          { text: '✏ Взаимодействия с предметом', link: '/features/signitem' },
+          { text: '🕯 Мегафакел', link: 'features/megatorch' },
+          { text: '💨 Ускоренный гаст', link: 'features/happyghast' },
+          { text: '🔮 Новые зачарования', link: 'features/enchants' },
+//          { text: '', link: '' },
           { text: '💡 Невидимый свет', link: '/features/light' },
           { text: '🏐 Волейбол', link: '/features/volleyball' },
           { text: '⚙ Улучшенный камнерез', link: '/features/cutter' },
@@ -125,6 +130,16 @@ export default defineConfig({
               { text: 'Пустыни и мессы', link: '/secondseason/features/sands' },
               { text: 'Дополнения к скалку', link: '/secondseason/features/sculk' },
               { text: 'Ребаланс торговли', link: '/secondseason/features/traderebalance' }
+            ]
+          },
+{
+            text: '3️⃣ Архив: Третий сезон',
+            link: '/thirdseason/framesold',
+            collapsed: true,
+            items: [
+              { text: '🖼 Взаимодействия с рамкой', link: 'thirdseason/framesold' },
+              { text: '🎨 Шаблоны для инструментов', link: 'thirdseason/trimsold' },
+              { text: 'Дополнения к скалку', link: 'thirdseason/newgenold' }
             ]
           }
         ]
