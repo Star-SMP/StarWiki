@@ -100,6 +100,7 @@ export default defineConfig({
           { text: '🕯 Мегафакел', link: 'features/megatorch' },
           { text: '💨 Ускоренный гаст', link: 'features/happyghast' },
           { text: '🔮 Новые зачарования', link: 'features/enchants' },
+          { text: '🥗 Больше еды', link: '/features/food' },
 //          { text: '', link: '' },
           { text: '💡 Невидимый свет', link: '/features/light' },
           { text: '🏐 Волейбол', link: '/features/volleyball' },
@@ -109,10 +110,9 @@ export default defineConfig({
           { text: '🔖 Названия шалкеров', link: '/features/shulkers' },
           {
             text: '1️⃣ Архив: первый сезон',
-            link: '/firstseason/features/features-morefood',
+            link: '/firstseason/features/painting-table',
             collapsed: true,
             items: [
-              { text: 'Больше еды', link: '/firstseason/features/features-morefood' },
               { text: 'Творческий стол', link: '/firstseason/features/painting-table' },
               { text: 'Верхний мир', link: '/firstseason/features/features-overworld' },
               { text: 'Нижний мир', link: '/firstseason/features/features-nether' },
