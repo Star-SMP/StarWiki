@@ -85,7 +85,6 @@ export default defineConfig({
           { text: '🎟 StarPass', link: '/features/starpass' },
           { text: `💅🏻 Косметика`, link: '/features/cosmetic'},
           { text: '⛰ Генерация', link: '/features/newgen'},
-          { text: '👨‍⚖️ Система управления', link: '/features/government' },
           { text: '🌍 Продвижение границы мира', link: '/features/border' },
           { text: '✈ Ограничение элитр', link: '/features/elytra' },
           { text: '💬 Чат и таб', link: '/features/chat' },
@@ -128,6 +127,7 @@ export default defineConfig({
             items: [
               { text: 'Больше кастомизации брони', link: '/secondseason/features/moretrims' },
               { text: 'Пустыни и мессы', link: '/secondseason/features/sands' },
+              { text: '👨‍⚖️ Система управления', link: '/secondseason/features/government' },
               { text: 'Дополнения к скалку', link: '/secondseason/features/sculk' },
               { text: 'Ребаланс торговли', link: '/secondseason/features/traderebalance' }
             ]
